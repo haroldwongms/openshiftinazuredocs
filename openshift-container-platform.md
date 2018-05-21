@@ -162,7 +162,7 @@ The deployment takes at least 30 minutes to complete, depending on the total num
 
 ```json
 {
-  "OpenShift Console URL": "http://openshiftlb.eastus.cloudapp.azure.com/console",
+  "OpenShift Console URL": "http://masterdnshaw2vlrt5dsp6.eastus.cloudapp.azure.com/console",
   "Bastion DNS FQDN": "bastiondns4hawllzaavu6g.eastus.cloudapp.azure.com",
   "OpenShift Master SSH": "ssh -p 2200 clusteradmin@masterdnshaw2vlrt5dsp6.cloudapp.azure.com",
   "openshift Infra Load Balancer FQDN": "infradns5772hawwn5afw.eastus.cloudapp.azure.com"
