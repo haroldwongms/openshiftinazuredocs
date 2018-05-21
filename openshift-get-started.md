@@ -32,10 +32,11 @@ There are multiple versions of OpenShift, of which two are available to run in A
 
 - OpenShift Container Platform
 - OpenShift Dedicated
+- OpenShift On Azure (Announced 5/8/18)
 - OpenShift Online
 - OpenShift Origin
 
-Of the four versions covered in this article, two are available for customers to deploy in Azure on their own: OpenShift Container Platform and OpenShift Origin.
+Of the five versions covered in this article, two are available for customers to deploy in Azure on their own: OpenShift Container Platform and OpenShift Origin.
 
 ## OpenShift Container Platform
 
@@ -45,7 +46,13 @@ Because customers "own" the entire platform, they can install it in their on-pre
 
 ## OpenShift Dedicated
 
-Dedicated is a Red Hat-managed *single-tenant* OpenShift that uses OpenShift Container Platform. Red Hat manages all of the underlying infrastructure (VMs, OpenShift cluster, networking, storage, etc.). The cluster is specific to one customer and runs in a public cloud (such as AWS or Google, with Azure coming in early 2018). A starting cluster includes four application nodes for $48,000 per year (paid up front).
+Dedicated is a Red Hat-managed *single-tenant* OpenShift that uses OpenShift Container Platform. Red Hat manages all of the underlying infrastructure (VMs, OpenShift cluster, networking, storage, etc.). The cluster is specific to one customer and runs in a public cloud (such as AWS or Google). A starting cluster includes four application nodes for $48,000 per year (paid up front).
+
+## OpenShift On Azure (Private Preview)
+
+This is a managed offering of OpenShift Container Platform running in Azure. This offer is jointly managed and supported by Microsoft and Red Hat. This was announced during the keynote by Scott Guthrie at Red Hat Summit on May 8, 2018. Currently this is in Private Preview.
+
+If you’re interested in trying out the new fully-managed OpenShift on Azure, please [submit your contact details](https://aka.ms/openshiftazureinterest) and we’ll reach out to you as soon as we announce the public preview.
 
 ## OpenShift Online
 
