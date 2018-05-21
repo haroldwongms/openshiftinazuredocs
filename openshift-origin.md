@@ -27,11 +27,11 @@ You can use one of two ways to deploy OpenShift Origin in Azure:
 
 ## Deploy by using the OpenShift Origin template
 
-The OpenShift Origin template located at https://github.com/Microsoft/openshift-origin has multiple branches available for different versions of OpenShift Origin.  Depending on your needs, you may be able to deploy directly from the repo or you may need to fork the repo and make custom changes to the templates and / or scripts before deploying.
+The OpenShift Origin template located at https://github.com/Microsoft/openshift-origin has multiple branches available for different versions of OpenShift Origin.  Depending on your needs, you may be able to deploy directly from the repo or you may need to fork the repo and make custom changes to the templates and / or scripts before deploying. Please review the README.md file in the repository for a full list of parameters and resources deployed as part of the template.
 
 Use the `appId` value from the service principal that you created earlier for the `aadClientId` parameter.
 
-The following example creates a parameters file named azuredeploy.parameters.json with all the required inputs.
+The following is an example of a parameters file named azuredeploy.parameters.json with all the required inputs.
 
 ```json
 {
@@ -127,17 +127,18 @@ The deployment takes at least 25 minutes to finish, depending on the total numbe
 
 ```json
 {
-  "OpenShift Console Uri": "http://openshiftlb.cloudapp.azure.com/console",
-  "OpenShift Master SSH": "ssh clusteradmin@myopenshiftmaster.cloudapp.azure.com -p 2200"
+  "OpenShift Console URL": "http://masterdnshaw2vlrt5dsp6.eastus.cloudapp.azure.com/console",
+  "OpenShift Master SSH": "ssh -p 2200 clusteradmin@masterdnshaw2vlrt5dsp6.cloudapp.azure.com",
+  "openshift Infra Load Balancer FQDN": "infradns5772hawwn5afw.eastus.cloudapp.azure.com"
 }
 ```
 
 ## Connect to the OpenShift cluster
 
-When the deployment finishes, connect to the OpenShift console with your browser by using the `OpenShift Console Uri`. Alternatively, you can connect to the OpenShift master by using the following command:
+When the deployment finishes, connect to the OpenShift console with your browser by using the `OpenShift Console URL`. Alternatively, you can connect to the OpenShift master by using the following command:
 
 ```bash
-$ ssh -p 2200 clusteradmin@myopenshiftmaster.cloudapp.azure.com
+$ ssh -p 2200 clusteradmin@masterdnshaw2vlrt5dsp6.eastus.cloudapp.azure.com
 ```
 
 ## Clean up resources
