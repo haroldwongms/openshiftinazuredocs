@@ -65,3 +65,7 @@ Origin is an [open-source](https://www.openshift.org/) upstream project of OpenS
 - [Deploy OpenShift Origin in Azure](./openshift-origin.md)
 - [Post-deployment tasks](./openshift-post-deployment.md)
 - [Troubleshoot OpenShift deployment](./openshift-troubleshooting.md)
+
+### Documentation contributors
+
+Thank you to Vincent Power (vincepower) and Alfred Sin (asinn826) for their contributions to keeping this documentation up to date!

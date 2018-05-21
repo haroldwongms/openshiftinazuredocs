@@ -356,3 +356,7 @@ ansible-playbook /usr/share/ansible/openshift-ansible/playbooks/byo/openshift-cl
 
 - [Getting started with OpenShift Container Platform](https://docs.openshift.com/container-platform/3.6/getting_started/index.html)
 - [Getting started with OpenShift Origin](https://docs.openshift.org/latest/getting_started/index.html)
+
+### Documentation contributors
+
+Thank you to Vincent Power (vincepower) and Alfred Sin (asinn826) for their contributions to keeping this documentation up to date!

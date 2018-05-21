@@ -209,3 +209,7 @@ az group delete --name myResourceGroup
 - [Post-deployment tasks](./openshift-post-deployment.md)
 - [Troubleshoot OpenShift deployment in Azure](./openshift-troubleshooting.md)
 - [Getting started with OpenShift Container Platform](https://docs.openshift.com/container-platform/3.6/getting_started/index.html)
+
+### Documentation contributors
+
+Thank you to Vincent Power (vincepower) and Alfred Sin (asinn826) for their contributions to keeping this documentation up to date!

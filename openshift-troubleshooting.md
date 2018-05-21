@@ -42,3 +42,7 @@ Be sure to restart the service that failed (for example, systemctl restart atomi
 For further troubleshooting, SSH into your master node on port 2200 (Origin) or the bastion node on port 22 (Container Platform). You need to be in the root (sudo su -) and then browse to the following directory: /var/lib/waagent/custom-script/download.
 
 Here you see folders named "0" and "1." In each of these folders, you see two files, "stderr" and "stdout." Look through these files to determine where the failure occurred.
+
+### Documentation contributors
+
+Thank you to Vincent Power (vincepower) and Alfred Sin (asinn826) for their contributions to keeping this documentation up to date!
